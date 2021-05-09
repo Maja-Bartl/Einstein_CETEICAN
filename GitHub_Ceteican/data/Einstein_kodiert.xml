@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kodierung eines Einstein-Briefes</title>
+            <respStmt>
+               <name>Maja Bartl</name>
+               <resp>TEI Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Zentrum für Informationsmodellierung</orgName>
+               <address>
+                  <addrLine>Elisabethstraße 59</addrLine>
+                  <addrLine>8010 Graz</addrLine>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Niemand wollte Einstein-Brief kaufen</title>
+               <author>APA Redaktion</author>
+               <date when="2019-12-04"/>
+               <address>
+                  <addrLine>Standard Verlagsgesellschaft GmbH</addrLine>
+                  <addrLine>Vordere Zollamtstraße 13</addrLine>
+                  <addrLine>A-1030 Wien</addrLine>
+               </address>
+               <ref
+                  target="https://www.derstandard.at/story/2000111864406/niemand-wollte-einstein-brief-kaufen"
+               />
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Niemand wollte Einstein-Brief kaufen</head>
+            <epigraph>
+               <p>Startpreis lag bei <num>18.000</num> Euro – zu viel für mögliche Interessenten</p>
+            </epigraph>
+            <p><date when="2019-12-04">4. Dezember 2019</date>, <time when="10:24:00"
+               >10:24</time></p>
+
+            <p><name type="place">Jerusalem</name> – Der Startpreis von gut <num>18.000</num> Euro
+               war dann doch zu hoch: Ein handgeschriebener Brief des weltberühmten Physikers
+               <name ref="http://www.wikipedia.org/wiki/Albert_Einstein" type="person">Albert Einstein</name>
+               <date from="1879" to="1955">(1879-1955)</date> hat bei einer Versteigerung in <name
+                  type="place">Jerusalem</name> keinen Abnehmer gefunden. Der Brief aus dem Jahr
+                  <date>1950</date> werde nun zunächst beim Besitzer bleiben. Dieser werde aber
+               einen neuen Anlauf nehmen, ihn zu verkaufen, sagte eine Sprecherin des Kedem Auction
+               House.</p>
+
+            <div>
+               <head>Der Adressat</head>
+               <p>Den Brief in deutscher Sprache schrieb <name ref="http://www.wikipedia.org/wiki/Albert_Einstein" type="person">Einstein</name> laut
+                  dem Auktionshaus an den Mathematiker <name ref="http://www.wikipedia.org/wiki/Ernst_Gabor_Straus" type="person">Ernst Gabor
+                  Straus</name>. <name ref="http://www.wikipedia.org/wiki/Ernst_Gabor_Straus" type="person">Straus</name> war ein Assistent <name ref="http://www.wikipedia.org/wiki/Albert_Einstein" type="person">Einsteins</name>, mit
+                  dem er auch mehrere Arbeiten veröffentlichte. </p>
+               <p><name ref="http://www.wikipedia.org/wiki/Ernst_Gabor_Straus" type="person">Straus</name> wurde am <date when="1922-02-22">22. Februar
+                     1922</date> als jüngstes von fünf Kindern einer jüdischen Familie in <name
+                     type="place">München</name> geboren. Nach der Machtergreifung der
+                  Nationalsozialisten floh die Familie <date>1933</date> ins damalige <name
+                     type="place">Palästina</name>, das noch dem britischen Mandat unterstand. Nach
+                  einem kurzen Studium an der Hebräischen Universität ging <name ref="http://www.wikipedia.org/wiki/Ernst_Gabor_Straus" type="person"
+                     >Straus</name> in die <name type="place">USA</name>, von <date from="1944"
+                     to="1948">1944 bis 1948</date> war er <name ref="http://www.wikipedia.org/wiki/Albert_Einstein" type="person">Einsteins</name>
+                  Assistent an der Princeton University in <name type="place">New Jersey</name>.
+                     <date>1983</date> starb <name ref="http://www.wikipedia.org/wiki/Ernst_Gabor_Straus" type="person">Straus</name> in <name type="place"
+                     >Los Angeles</name>. </p>
+            </div>
+            <div>
+               <head>Der Inhalt</head>
+               <p><q>"In dem Brief reagiert <name ref="http://www.wikipedia.org/wiki/Albert_Einstein" type="person">Albert Einstein</name> auf Kritik
+                     von <name ref="http://www.wikipedia.org/wiki/Ernst_Gabor_Straus" type="person">Ernst Gabor Straus</name> an seiner Arbeit"</q>, hatte
+                  das Auktionshaus vor der Versteigerung mitgeteilt. Das Schreiben erlaube <q>"einen
+                     interessanten Einblick in die fortdauernde Arbeit der beiden"</q>. <name ref="http://www.wikipedia.org/wiki/Albert_Einstein"
+                     type="person">Einstein</name> habe sich damals mit einer Variante der
+                  einheitlichen Feldtheorie befasst, in der es um die Zusammenfassung von
+                  Gravitation und Elektromagnetismus ging. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
